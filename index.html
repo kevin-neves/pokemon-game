@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Top Trumps</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+            <header class='pokemonsChoosen'>
+                <h1>choose your contestants</h1>
+            </header>
+            <article id="pokemons">
+                <div class='poke1'>
+                    <select name="poke1" id="poke1">
+                        <option value="null"></option>
+                    </select>
+                </div>
+                <div class='poke2'>
+                    <select name="poke2" id="poke2">
+                        <option value="null"></option>
+                    </select>
+                </div>
+                <div class='poke3'>
+                    <select name="poke3" id="poke3">
+                        <option value="null"></option>
+                    </select>
+                </div>
+            </article>
+            <article class="champion">
+                <select name="attributes" id="attributes">
+                    <option value="hp">HP</option>
+                    <option value="attack">ATTACK</option>
+                    <option value="special-attack">SPECIAL ATTACK</option>
+                    <option value="defense">DEFENSE</option>
+                    <option value="special-defense">SPECIAL DEFENSE</option>
+                    <option value="speed">SPEED</option>
+                </select>
+                <button type="button" id="btn" >evaluate champion</button>
+            </article>
+        </section>
+    </main>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
