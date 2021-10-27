@@ -136,7 +136,7 @@ select {
 }
 
 .electric {
-    background-color: rgb(255, 255, 0);
+    background-color: gold;
 }
 
 .fire {
@@ -148,11 +148,11 @@ select {
 }
 
 .water {
-    background-color: rgb(99, 99, 255);
+    background-color: dodgerblue;
 }
 
 .dragon {
-    background-color: rgb(121, 36, 36);
+    background-color: firebrick;
 }
 
 .normal {
@@ -164,10 +164,14 @@ select {
 }
 
 .psychic {
-    background-color: violet;
+    background-color: deeppink;
 }
 
 .poison {
+    background-color: darkslateblue;
+}
+
+.ghost {
     background-color: blueviolet;
 }
 
