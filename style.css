@@ -179,6 +179,14 @@ select {
     background-color: darkorange;
 }
 
+.ground {
+    background-color: olive;
+}
+
+.rock {
+    background-color: #707070;
+}
+
 .grey {
     background-color: #aaa;
 }
